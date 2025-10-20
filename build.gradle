@@ -116,9 +116,9 @@ android {
         versionCode 42159
         versionName "2.19.5"
         archivesBaseName += "-$versionName"
-        applicationId "eu.siacs.conversations"
+        applicationId "com.valromey.chat"
         resValue "string", "applicationId", applicationId
-        def appName = "Conversations"
+        def appName = "ValroChat"
         resValue "string", "app_name", appName
         buildConfigField "String", "APP_NAME", "\"$appName\""
     }
